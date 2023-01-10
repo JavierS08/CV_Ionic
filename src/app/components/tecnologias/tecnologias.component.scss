@@ -10,3 +10,10 @@ ion-card-title{
 h1{
     text-align: center;
 }
+
+#prog{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
