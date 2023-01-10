@@ -1,0 +1,7 @@
+{
+  "name": "CV_Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
