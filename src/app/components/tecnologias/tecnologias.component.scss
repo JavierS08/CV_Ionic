@@ -1,4 +1,4 @@
-#spa{
+.spa{
     display: flex;
     justify-content: space-evenly;
 }
@@ -18,14 +18,17 @@ h1{
     text-align: center;
 }
 
-#res{
-    height: 17rem;
+.res{
+    height: max-content;
     text-align: center;
-}
-#res1{
-    height: 17rem;
-    text-align: center;
-    display: flex; 
+    display: flex;
     justify-content: center;
-    align-items: center;
+    aling-items: center;
+    flex-direction: column;
 }
+.long-text-item{
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+
